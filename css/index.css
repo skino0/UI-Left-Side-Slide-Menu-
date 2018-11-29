@@ -1,0 +1,482 @@
+/*
+Created by -- @skino0  Twitter --,
+https:oniks-420.review 
+*/
+
+/*Needed*/@import url('https://fonts.googleapis.com/css?family=Montserrat');
+/*Not needed , only for desc*/@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body{
+    margin:0;
+    padding:0;
+    background:rgb(213, 213, 213);
+
+}
+/*The whole bar */
+#menubar{
+    left:0;
+    height:100vh;
+    width:40px;/*24*/
+    background-color:rgba(118, 118, 118,.8);
+    position:absolute;
+    display:table-cell;
+}
+#menubar:hover  {
+    transition-duration:.3s;
+    width:200px;
+    background-color:rgba(6, 129, 211, 0.7);
+}
+/*
+.menuitem:nth-child(1) {
+    margin:10vh auto auto 10px ;
+    margin-bottom:0!important;
+
+
+
+}*/
+/*Dont touch it*/
+
+.menuitem {
+    display:flex;
+    padding:2px 0 5px 5px;
+    margin:5vh auto auto 4px ;
+    width:70%;
+    height:20px;
+    background-color:rgba(220, 220, 220,.5);
+    border-radius:4px 0 0 4px;
+    border-right:3px rgba(0,0,0,.8) solid;
+    user-select:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+}
+
+.menuitem:hover {
+    cursor:pointer;
+}
+/*Dont touch it*/
+
+.meitemplus {
+    display:none;
+    padding:0 20px 5px 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:12px;
+}
+
+.meitemplus:hover {
+    color:rgba(2, 172, 155, 0.85)!important;
+
+
+}
+/*Dont touch it*/
+
+.ho {
+    animation-fill-mode:both;
+    animation:ho1 1.4s forwards;
+    -webkit-animation:ho1 1.4s forwards;
+    -moz-animation:ho1 1.4s forwards;
+    display:block;
+}
+@keyframes ho1 {
+    0% {
+        display:none;
+
+    }
+
+    100% {
+        display:block;
+        margin:0 0 0 8px;
+        width:90%!important;
+        letter-spacing:1.7px;
+
+    }
+}
+
+@-moz-keyframes ho1 {
+    0% {
+        display:none;
+
+    }
+
+    100% {
+        display:block;
+        margin:0 0 0 8px;
+        width:90%!important;
+        letter-spacing:1.7px;
+
+    }
+}
+
+@-webkit-keyframes ho1 {
+    0% {
+        display:none;
+
+    }
+
+    100% {
+        display:block;
+        margin:0 0 0 8px;
+        width:90%!important;
+        letter-spacing:1.7px;
+
+    }
+}
+/*Dont touch it*/
+
+.hoitem
+{
+    animation-fill-mode:both;
+    animation:hoitem 1.1s forwards;
+    -webkit-animation:hoitem 1.1s forwards;
+    -moz-animation:hoitem 1.1s forwards;
+
+
+
+}
+@keyframes hoitem {
+    0% {
+        padding:2px 0 5px 5px;
+        margin:5vh auto auto 4px ;
+        width:70%;
+        background-color:rgba(220, 220, 220,.5);
+        border-radius:4px 0 0 4px;
+        border-right:3px rgba(0,0,0,.8) solid;
+        border-left:0px rgba(0, 0, 0, 0.7) solid;
+
+    }
+    30%{        
+        border-right:2px rgba(0,0,0,.5) solid;
+    }
+
+    50%{
+        border-right:1px rgba(0,0,0,.2) solid;
+        border-right:0px transparent solid;;
+        background-color:rgba(220, 220, 220,1);
+        margin-left: 20px;
+        width:155px;
+        border-radius:4px 0 0 4px;
+        border-left:4px rgba(0, 0, 0, 0.7) solid;
+
+    }
+
+    100% {
+        border-right:0px transparent solid;;
+        background-color:rgba(220, 220, 220,1);
+        margin-left: 20px;
+        width:155px;
+        border-radius:4px 0 0 4px;
+        border-left:4px rgba(0, 0, 0, 0.7) solid;
+
+
+    }
+}
+
+@-moz-keyframes hoitem {
+    0% {
+        padding:2px 0 5px 5px;
+        margin:5vh auto auto 4px ;
+        width:70%;
+        background-color:rgba(220, 220, 220,.5);
+        border-radius:4px 0 0 4px;
+        border-right:3px rgba(0,0,0,.8) solid;
+        border-left:0px rgba(0, 0, 0, 0.7) solid;
+
+    }
+    30%{        
+        border-right:2px rgba(0,0,0,.5) solid;
+    }
+
+    50%{
+        border-right:1px rgba(0,0,0,.2) solid;
+        border-right:0px transparent solid;;
+        background-color:rgba(220, 220, 220,1);
+        margin-left: 20px;
+        width:155px;
+        border-radius:4px 0 0 4px;
+        border-left:4px rgba(0, 0, 0, 0.7) solid;
+
+    }
+
+    100% {
+        border-right:0px transparent solid;;
+        background-color:rgba(220, 220, 220,1);
+        margin-left: 20px;
+        width:155px;
+        border-radius:4px 0 0 4px;
+        border-left:4px rgba(0, 0, 0, 0.7) solid;
+
+
+    }
+}
+
+@-webkit-keyframes hoitem {
+    0% {
+        padding:2px 0 5px 5px;
+        margin:5vh auto auto 4px ;
+        width:70%;
+        background-color:rgba(220, 220, 220,.5);
+        border-radius:4px 0 0 4px;
+        border-right:3px rgba(0,0,0,.8) solid;
+        border-left:0px rgba(0, 0, 0, 0.7) solid;
+
+    }
+    30%{        
+        border-right:2px rgba(0,0,0,.5) solid;
+    }
+
+    50%{
+        border-right:1px rgba(0,0,0,.2) solid;
+        border-right:0px transparent solid;;
+        background-color:rgba(220, 220, 220,1);
+        margin-left: 20px;
+        width:155px;
+        border-radius:4px 0 0 4px;
+        border-left:4px rgba(0, 0, 0, 0.7) solid;
+
+    }
+
+    100% {
+        border-right:0px transparent solid;;
+        background-color:rgba(220, 220, 220,1);
+        margin-left: 20px;
+        width:155px;
+        border-radius:4px 0 0 4px;
+        border-left:4px rgba(0, 0, 0, 0.7) solid;
+
+
+    }
+}
+
+
+
+/*Dont touch it*/
+
+.hoitemplus {
+
+    animation-fill-mode:both;
+    animation:hoitemplus .75s forwards;
+}
+
+@keyframes hoitemplus {
+    0% {
+        display:none;
+        padding:0 0 5px 5%;
+        font-family: 'Montserrat', sans-serif;
+        font-size:12px;
+        letter-spacing:0px;
+        font-weight:0;
+        line-height:20px;
+        color:rgba(0,0,0,0);
+
+    }
+    20% {
+        font-weight:200;
+        display:none;
+    }
+    30% {
+        font-weight:300;
+        display:none;
+    }
+    40%{
+        font-weight:400;
+        display:none;
+    }
+    50%{
+        font-weight:500;
+        display:none;
+    }
+    60%{
+        display:block;
+        padding:0 0 5px 20%;
+        transform:translateY(-8px);
+        color:rgba(0,0,0,.1);
+        font-weight:600;
+    }
+    70%{font-weight:700;}
+
+    80%{
+        color:rgba(0,0,0,.8);
+    }
+    90%{
+        transform:translateY(8px);
+        color:rgba(0,0,0,.5);
+    }
+    100% {
+
+        line-height:20px;
+        padding:0 0 5px 20%;
+        font-weight:700;
+        letter-spacing:2px;
+        transform:translateY(0px);
+        color:rgba(0,0,0,.9);
+    }
+}
+
+@-moz-keyframes hoitemplus {
+    0% {
+        display:none;
+        padding:0 0 5px 5%;
+        font-family: 'Montserrat', sans-serif;
+        font-size:12px;
+        letter-spacing:0px;
+        font-weight:0;
+        line-height:20px;
+        color:rgba(0,0,0,0);
+
+    }
+    20% {
+        font-weight:200;
+        display:none;
+    }
+    30% {
+        font-weight:300;
+        display:none;
+    }
+    40%{
+        font-weight:400;
+        display:none;
+    }
+    50%{
+        font-weight:500;
+        display:none;
+    }
+    60%{
+        display:block;
+        padding:0 0 5px 20%;
+        transform:translateY(-8px);
+        color:rgba(0,0,0,.1);
+        font-weight:600;
+    }
+    70%{font-weight:700;}
+
+    80%{
+        color:rgba(0,0,0,.8);
+    }
+    90%{
+        transform:translateY(8px);
+        color:rgba(0,0,0,.5);
+    }
+    100% {
+
+        line-height:20px;
+        padding:0 0 5px 20%;
+        font-weight:700;
+        letter-spacing:2px;
+        transform:translateY(0px);
+        color:rgba(0,0,0,.9);
+    }
+}
+
+@-webkit-keyframes hoitemplus {
+    0% {
+        display:none;
+        padding:0 0 5px 5%;
+        font-family: 'Montserrat', sans-serif;
+        font-size:12px;
+        letter-spacing:0px;
+        font-weight:0;
+        line-height:20px;
+        color:rgba(0,0,0,0);
+
+    }
+    20% {
+        font-weight:200;
+        display:none;
+    }
+    30% {
+        font-weight:300;
+        display:none;
+    }
+    40%{
+        font-weight:400;
+        display:none;
+    }
+    50%{
+        font-weight:500;
+        display:none;
+    }
+    60%{
+        display:block;
+        padding:0 0 5px 20%;
+        transform:translateY(-8px);
+        color:rgba(0,0,0,.1);
+        font-weight:600;
+    }
+    70%{font-weight:700;}
+
+    80%{
+        color:rgba(0,0,0,.8);
+    }
+    90%{
+        transform:translateY(8px);
+        color:rgba(0,0,0,.5);
+    }
+    100% {
+
+        line-height:20px;
+        padding:0 0 5px 20%;
+        font-weight:700;
+        letter-spacing:2px;
+        transform:translateY(0px);
+        color:rgba(0,0,0,.9);
+    }
+}
+/*Dont touch it*/
+
+.hoicon {
+    transition-duration:.9s;
+    line-height:17px;
+    padding:5px 0 5px 5px;
+    color:rgba(0, 0, 0, 0.8)!important;
+    text-shadow:1px 1px 10px #fff!important;
+    -webkit-text-shadow:1px 1px 10px #fff!important;
+    -moz-text-shadow:1px 1px 10px #fff!important;
+
+
+}
+/*Dont touch it*/
+.icons{
+    font-size:17px;
+    font-weight:bold;
+    padding:2px 12px 10px 2px;
+    text-shadow:0 0 3px #000000;
+    -moz-text-shadow:0 0 3px #000000;
+    -webkit-text-shadow:0 0 3px #000000;
+
+
+}
+/*Here are all of buttons , if you add more button you must add it too here*/
+
+/*pre-hover colors*/
+#insta {
+    color:rgb(255, 136, 8);
+
+}
+#twitter {
+
+    color:rgb(0, 145, 255);
+
+}
+#codepen {
+    color:rgb(214, 214, 214);
+
+}
+/*pre-hover colors End*/
+
+/*>>>>*/
+#desc {position:absolute;top:20%;left:50%;transform:translate(-50%,-50%);user-select: none;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+#desc h1 {font-family: 'Oswald', sans-serif;color:rgb(0,0,0);font-size:25px;text-transform:uppercase;padding:0 0 8px 0;border-bottom:4px rgba(0,0,0,.5) solid;letter-spacing:1.8px;}
+#desc p {font-size:17px;font-family:Monospace;letter-spacing:.7px!important;text-align:left;line-height:30px;}
+#twitlink {text-decoration:none;color:rgb(8, 126, 252);font-weight:600;}
+#twitlink:hover{transition-duration:.2s;color:rgba(8, 126, 252,.8);}
+#coffee {text-decoration:none;color:rgb(248, 164, 7);padding:2px 10px 2px 10px;font-weight:600;}
+#coffee img {width:23px;height:23px;padding:0;margin:0;position:absolute;}
+#coffee:hover {transition-duration:.2s;color:rgb(135, 135, 135);}
+/*<<<<*/
+
+
+
+
+
+
+
