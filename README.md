@@ -2,11 +2,7 @@
 
 ---
 
-> **UI Sliding Menu (In this source used for social media) **
->
-> **that opens when user hover the whole bar on whatever position **
->
-> **& the Elements inside of it unhide & opens the same time !**
+> **UI Sliding Menu (In this source used for social media) that opens when user hover the whole bar on whatever position & the Elements inside of it unhide & opens the same time !**
 
 ---
 
